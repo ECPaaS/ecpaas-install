@@ -49,4 +49,9 @@ spec:
          path:
            - https://raw.githubusercontent.com/projectcalico/calico/release-v3.24/manifests/calico.yaml
 
-
+  - name: openelb
+    namespace: openelb-system
+    sources:
+       yaml:
+         path: 
+           - https://raw.githubusercontent.com/openelb/openelb/release-0.6/deploy/openelb.yaml
