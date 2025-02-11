@@ -15,9 +15,9 @@ spec:
   local_registry: "ecpaas-dockerhub.atan-networks.com.cn"        # Add your private registry address if it is needed.
   # dev_tag: ""               # Add your kubesphere image tag you want to install, by default it's same as ks-installer release version.
 
-  ecpaas_console_ver: "ecpaas-v332-c8c1e" # image tag for ecpaas ks-console
-  ecpaas_apisvr_ver: "ecpaas-v332-b35f6"  # image tag for ecpaas ks-api-server
-  ecpaas_cmgr_ver: "ecpaas-v332-b35f6"    # image tag for ecpaas ks-control-manager
+  ecpaas_console_ver: "ecpaas-v332" # image tag for ecpaas ks-console
+  ecpaas_apisvr_ver: "ecpaas-v332"  # image tag for ecpaas ks-api-server
+  ecpaas_cmgr_ver: "ecpaas-v332"    # image tag for ecpaas ks-control-manager
   # ecpaas_kubevirt_ver: ""         # image tag for ecpaas kubevirt
   # ecpaas_cdi_ver: ""              # image tag for ecpaas cdi
 
