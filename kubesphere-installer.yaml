@@ -316,7 +316,7 @@ spec:
       serviceAccountName: ks-installer
       containers:
       - name: installer
-        image: ecpaas-dockerhub.atan-networks.com.cn/kubesphere/ks-installer:ecpaas-v332-6a981
+        image: ecpaas-dockerhub.atan-networks.com.cn/kubesphere/ks-installer:ecpaas-v332
         imagePullPolicy: "IfNotPresent"
         resources:
           limits:
