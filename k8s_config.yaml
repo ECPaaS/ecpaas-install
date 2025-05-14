@@ -26,7 +26,7 @@ spec:
     version: v1.22.9
     clusterName: ecpass.local
     autoRenewCerts: true
-    containerManager: docker
+    containerManager: containerd
   etcd:
     type: kubekey
   network:
