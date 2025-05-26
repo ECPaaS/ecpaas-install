@@ -56,6 +56,8 @@ spec:
       - resourceName: "nvidia.com/gpu"
         resourceType: "GPU"
         default: true
+      - resourceName: "amd.com/gpu"
+        resourceType: "GPU"
     es:   # Storage backend for logging, events and auditing.
       # master:
       #   volumeSize: 4Gi  # The volume size of Elasticsearch master nodes.
