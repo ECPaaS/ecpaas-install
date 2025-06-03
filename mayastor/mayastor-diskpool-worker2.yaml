@@ -1,0 +1,9 @@
+apiVersion: "openebs.io/v1beta1"
+kind: DiskPool
+metadata:
+  name: pool-on-worker-2
+  namespace: mayastor
+spec:
+  node: ecpaas-worker2
+  disks: [/dev/sdb]
+

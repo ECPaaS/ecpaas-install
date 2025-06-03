@@ -1,0 +1,9 @@
+apiVersion: "openebs.io/v1beta1"
+kind: DiskPool
+metadata:
+  name: pool-on-master
+  namespace: mayastor
+spec:
+  node: ecpaas-master
+  disks: [/dev/sdb]
+
