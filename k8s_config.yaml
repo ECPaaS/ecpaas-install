@@ -28,7 +28,7 @@ spec:
     autoRenewCerts: true
     containerManager: containerd
   etcd:
-    type: kubekey
+    type: kubekey  #or kubeadm
   network:
     plugin: none
     kubePodsCIDR: 10.233.64.0/18
