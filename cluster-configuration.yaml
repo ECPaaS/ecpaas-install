@@ -21,6 +21,10 @@ spec:
   # ecpaas_kubevirt_ver: ""         # image tag for ecpaas kubevirt
   # ecpaas_cdi_ver: ""              # image tag for ecpaas cdi
   kubevirt: false
+  # hideMenu:                       # set false to disable VPC networks & virtualization Web UI
+  # - { navtitle: clusterNavs, name: vpcnetworks, isChildItem: false }
+  # - { navtitle: clusterNavs, name: virtualization, isChildItem: false }
+  # - { navtitle: projectNavs, name: virtualization, isChildItem: false }  
   etcd:
     monitoring: false       # Enable or disable etcd monitoring dashboard installation. You have to create a Secret for etcd before you enable it.
     endpointIps: localhost  # etcd cluster EndpointIps. It can be a bunch of IPs here.
