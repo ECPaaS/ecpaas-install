@@ -23,6 +23,12 @@ spec:
     domain: lb.kubesphere.local
     address: ""
     port: 6443
+  system:
+    preInstall:
+      - name: hugepages
+        bash: "/bin/bash hugepage.sh"
+        materials:
+          - ./mayastor/hugepage.sh
   kubernetes:
     version: v1.32.4
     clusterName: ecpass.local
