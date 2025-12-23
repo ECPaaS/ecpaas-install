@@ -44,7 +44,7 @@ spec:
     multusCNI:
       enabled: true
   registry:
-    privateRegistry: "ecpaas-dockerhub.atan-networks.com.cn"
+    privateRegistry: "ecpaas.dockerhub.my-openwifi.cloud"
     namespaceOverride: ""
     registryMirrors: []
     insecureRegistries: []
