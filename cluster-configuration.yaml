@@ -12,7 +12,7 @@ spec:
   authentication:
     # adminPassword: ""     # Custom password of the admin user. If the parameter exists but the value is empty, a random password is generated. If the parameter does not exist, P@88w0rd is used.
     jwtSecret: ""           # Keep the jwtSecret consistent with the Host Cluster. Retrieve the jwtSecret by executing "kubectl -n kubesphere-system get cm kubesphere-config -o yaml | grep -v "apiVersion" | grep jwtSecret" on the Host Cluster.
-  local_registry: "ecpaas-dockerhub.atan-networks.com.cn"        # Add your private registry address if it is needed.
+  local_registry: "ecpaas.dockerhub.my-openwifi.cloud"        # Add your private registry address if it is needed.
   # dev_tag: ""               # Add your kubesphere image tag you want to install, by default it's same as ks-installer release version.
 
   ecpaas_console_ver: "ecpaas-v332" # image tag for ecpaas ks-console
