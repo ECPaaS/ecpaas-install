@@ -62,3 +62,9 @@ spec:
        yaml:
          path: 
            - https://raw.githubusercontent.com/openelb/openelb/release-0.6/deploy/openelb.yaml
+  - name: pvcviwer
+    namespace: kube-system
+    sources:
+      yaml:
+        path:
+          - https://raw.githubusercontent.com/ECPaaS/kubesphere-ecpaas/refs/heads/release-3.3/config/crds/file.ecpaas.io_pvcviewers.yaml
